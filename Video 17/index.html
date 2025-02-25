@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+    /* Element selector */
+    /* div{
+        background-color: red;
+    } */
+
+    /* Class Selector */
+    .red{
+        background-color: red;
+    }
+
+    /* ID Selector */
+    #green{
+        background-color: green;
+    }
+
+    /* Child Selector */
+    div>p{
+        background-color: yellow;
+        color: blue;
+    }
+    
+    /* Descendent Selector */
+    div p{
+        background-color: yellow;
+        color: blue;
+    }
+
+    /* Universal selector */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Pseudo Selector */
+    a:visited{
+        color: green;
+    }
+
+    a:link{
+        color:yellow;
+    }
+
+    a:active{
+        background-color: navy;
+    }
+
+    a:hover{
+        background-color: skyblue;
+    }
+
+    main p:first-child{
+        background-color: aqua;
+    }
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>I am First.</p>
+        <p>I am Second.</p>
+    </main>
+
+    <div class="red">
+        I am a div.
+        <article>
+            <p>I am a para inside div.</p>
+        </article>
+    </div>
+    <div id="green">
+        I am another div.
+        <p>I am a para inside another div.</p>
+    </div>
+
+    <a href="https://www.flipkart.com" target="_blank">Go to flipkart</a>
+    <a href="https://www.amazon.in" target="_blank">Go to amazon</a>
+    <a href="https://www.amazon2.in" target="_blank">Go to amazon</a>
+</body>
+</html>
