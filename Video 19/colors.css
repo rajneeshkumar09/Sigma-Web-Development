@@ -1,0 +1,13 @@
+h1{
+    color: orangered;
+    background-color: rgba(145, 56, 122, 0.8);
+}
+
+p{
+    font-size: 25px;
+    /* color: #2a5ed6;      */
+    /* color: rgb(42, 94, 214); */
+    /* color: rgba(42, 94, 214, 0.533); */
+    /* color: hsl(288, 81%, 51%); */
+    color: hsla(288, 81%, 51%, 0.579);
+}

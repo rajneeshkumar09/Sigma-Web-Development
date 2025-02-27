@@ -1,0 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        
+p{
+    /*font-family:  Verdana, Geneva, Tahoma, sans-serif;*/
+    font-family: "Baloo Bhaijaan 2", serif;
+    font-size: 20px;
+    line-height: 1.6;
+    /*font-style: oblique;
+    font-weight: 500;
+    text-decoration: underline;*/
+}
+
+h1{
+    font-family: "Poppins", serif;
+    letter-spacing: 2.5px;
+}
+
+h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: rgb(31, 220, 128);
+    text-decoration-style: solid;
+    text-decoration-thickness: 6px;
+    text-align: center;
+    /*text-indent: 40px;**/
+}
+
+.lorem{
+    width: 210px;
+    border: 2px solid red;
+    word-break: break-all;
+    /*text-overflow: ellipsis;
+    overflow: hidden;*/
+}
