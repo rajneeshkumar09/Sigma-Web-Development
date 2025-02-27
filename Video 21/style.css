@@ -1,0 +1,33 @@
+/* The Specificity of this selector is 10 */
+.yellow{
+    color: yellow;
+}
+
+/* The Specificity of this selector is 10 */
+.cred{
+    color: red;
+}
+
+/* The Specificity of this selector is 1 + 10 = 11 */
+h1.cpurple{
+    color: purple;
+}
+
+/* The Specificity of this selector is 1 */
+h1{
+    color: aqua;
+}
+
+/* The Specificity of this selector is 10 */
+/* Attribute Selector */
+[data-x=a]{
+    background-color: rgb(172, 227, 105);
+    /* color: maroon; */
+}
+
+
+
+/* The Specificity of this selector is 1 + 10 + 10 + 10 + 10 = 41 */
+a.harryclass.rohan-class[href]:hover{
+    color: blueviolet;
+}
