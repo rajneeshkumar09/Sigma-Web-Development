@@ -1,0 +1,71 @@
+*{
+    font-family: cursive;
+}
+
+.card{
+    min-height: 95vh;
+    width: 22vw;
+    border: 3px solid rgb(200, 169, 200);
+    border-radius: 14px;
+}
+
+.image{
+    background-image: url('../Sources/images/Sambhar-Lake.jpg');
+    height: 320px;
+    /* width: 38vw; */
+    background-size: cover;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.keywords ul{
+    margin: 0;
+    padding: 5px;
+}
+
+.keywords ul li{
+    list-style: none;
+    display: inline;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 3px;
+    margin: 6px;
+    margin-block: 0em;
+    padding-inline: 1px;
+    color: rgb(126, 124, 124);
+    font-size: 0.9em;
+}
+
+.keywords ul li a{
+    font-size: 0.9em;
+    padding: 3px;
+    text-decoration: none;
+    color: purple;
+}
+
+.card_content{
+    margin: 12px;
+}
+
+.card_content h2{
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.card_content p{
+    color: rgb(126, 124, 124);
+}
+
+.read_more {
+    text-align: center;
+    margin: 1.2em;
+}
+
+.read_more a{
+    text-decoration: none;
+    background-color: rgb(187, 220, 251);
+    border: 0px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+}
