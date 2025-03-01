@@ -1,0 +1,21 @@
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: "☠️";
+    list-style-position: inside;
+    padding: 23px;
+    background-color: #abc;
+}
+
+ol li{
+    /* list-style: devanagari; */
+    list-style-type: "☠️";
+    /* list-style-image: url("../Sources/images/list-marker.jpeg"); */
+    /* list-style: square inside url("../Sources/images/list-marker.jpeg"); */
+    /* list-style: circle inside; */
+    background-color: yellow;
+    list-style-position: inside;
+    border: 2px solid black;
+}
