@@ -1,0 +1,39 @@
+:root{
+    /* Global Variable  */
+    --color: rgb(255, 0, 183);
+    --setcolor: rgb(240, 143, 213);
+    --defpad: 24px;
+    --defop: 0.4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: var(--color);
+    margin: 5px;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding: var(--defpad);
+    border: 5px solid var(--setcolor);
+    opacity: var(--defop);
+}
+
+ul li:first-child{
+    /* local variable  */
+    --color: rgb(46, 231, 245);
+    background-color: var(--color, rgb(2, 255, 187));
+}
+
+.container{
+    background-color: var(--setcolor);
+    margin: 6px;
+}
