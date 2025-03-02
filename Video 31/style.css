@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(203, 230, 99);
+}
+
+@media screen and (orientation: landscape) {
+    body{
+        background-color: purple;
+        border: 3px solid salmon;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body{
+        background-color: aqua;
+    }
+
+    .boxes{
+        flex-direction: column;
+    }
+}
+
+/* @media not|only mediatype and (expression){
+    CSS-Code;
+} */
+
+.boxes{
+    display: flex;
+}
+
+.box{
+    height: 21rem;
+    width: 21rem;
+    background-color: steelblue;
+    padding: 3px;
+    margin: 3px;
+}
