@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 54px;
+    background-color: gray;
+    display: flex;
+}
+
+.card {
+    background-color: white;
+    width: 244px;
+    /* height: 444px; */
+    border-radius: 7px;
+    padding: 0 0 64px 0;
+    margin: 4px;
+}
+
+img {
+    width: 234px;
+    padding: 5px;
+}
+
+.image img {
+    border-radius: 10px;
+}
+
+.capsules {
+    padding: 0 28px 0 14px;
+}
+
+.capsules span {
+    border: 1px solid gray;
+    padding: 0px 6px;
+    margin: 2px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+.content {
+    padding: 7px 13px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* .content h2{} */
+
+.content p {
+    font-size: 12px;
+    color: gray;
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    padding: 7px 13px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(216, 236, 253);
+    color: rgb(14, 150, 234);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: rgb(125, 248, 255);
+    color: rgb(211, 43, 237);
+}
