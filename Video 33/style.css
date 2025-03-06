@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --defpad: 6px;
+    --defmar: 4px;
+    --defbor: 2px;
+    --btncolor: rgb(212, 5, 191);
+    --btnbgcolor: rgb(243, 237, 59);
+    --acolor: rgb(243, 108, 11);
+    --ahcolor: rgb(199, 5, 221);
+    --borcolor: rgb(59, 103, 247);
+    --color: rgb(144, 7, 223);
+    --bgcolor: rgb(194, 232, 119);
+    --btnhbgcolor: rgb(137, 234, 192);
+    --btnhcolor: rgb(32, 111, 163);
+}
+
+body {
+    background-color: burlywood;
+}
+
+.navbar {
+    background-color: var(--bgcolor);
+    margin: var(--defmar);
+    padding: var(--defpad);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    /* margin: var(--defmar); */
+    padding: var(--defpad);
+}
+
+.nav-logo h3{ 
+    border: var(--defbor) solid var(--borcolor);
+    border-radius: 22px;
+    padding: var(--defpad);
+    margin: var(--defmar);
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color);
+    cursor: pointer;
+}
+
+.nav-logo h3:hover{
+    color: crimson;
+    cursor: pointer;
+    border: var(--defbor) solid saddlebrown;
+}
+
+.nav-logo p {
+    padding: var(--defpad);
+    margin: var(--defmar) 0 0 -8px;
+    font-weight: 900;
+    font-size: 22px;
+    color: saddlebrown;
+    cursor: pointer;
+}
+
+.nav-logo p:hover{
+    color: var(--borcolor);
+    cursor: pointer;
+}
+
+.navbar nav{
+    width: 420px;
+}
+
+.navbar nav a{
+    padding: var(--defpad);
+    border: var(--defbor);
+    margin: var(--defmar);
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--acolor);
+}
+
+.navbar nav a:hover{
+    color: var(--ahcolor);
+    font-size: 19px;
+    border: var(--defbor) solid var(--borcolor);
+    border-radius: 4px;
+    /* text-decoration: var(--borcolor) underline; */
+    background-color: var(--btnbgcolor);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttons button{
+    border: 1px solid var(--btnbgcolor);
+    border-radius: 12px;
+    padding: var(--defpad);
+    color: var(--btncolor);
+    background-color: var(--btnbgcolor);
+    font-size: 16px;
+    font-weight: 600;
+    margin: var(--defmar);
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    border: 1px solid var(--btnhbgcolor);
+    background-color: var(--btnhbgcolor);
+    color: var(--btnhcolor);
+    cursor: pointer;
+}
+
+.profile-icon img{
+    height: 50px;
+    margin: var(--defmar);
+    text-align: center;
+}
+
+.profile-icon img:hover{
+    cursor: pointer;
+}
