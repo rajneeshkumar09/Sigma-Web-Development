@@ -1,0 +1,22 @@
+.cards{
+    border: 2px solid blue;
+    display: flow-root;
+}
+
+.card {
+    border: 2px solid red;
+    margin: 2px;
+}
+
+.card:nth-child(3) {
+    background-color: aqua;
+    clear: right;
+
+}
+
+img {
+    height: 200px;
+    margin: 3px;
+    /* float: left; */
+    float: right;
+}
