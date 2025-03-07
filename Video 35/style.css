@@ -1,0 +1,49 @@
+/* .box:first-child {
+    background-color: red;
+} */
+
+/* .box::first-line {
+    color: rgb(8, 0, 255);
+} */
+
+/* .boxes *{
+    color: blue;
+    border: 2px solid black;
+}
+
+p, a, .box, [data-color="primary"] {
+    margin-top: 45px;
+    padding-top: 10px;
+} */
+
+/* .box:nth-child(odd) {
+    background-color: skyblue;
+} */
+
+/* .box:nth-last-child(2) {
+    background-color: salmon;
+} */
+
+::selection {
+    color: aqua;
+    background-color: gray;
+}
+
+.boxes::before {
+    content: "Rajneesh is better";
+    color: blue;
+}
+
+.boxes::after {
+    content: "Learning Sigma Web Development Course";
+    color: red;
+}
+
+.box::first-letter {
+    color: rgb(224, 6, 133);
+    font-size: 45px;
+}
+
+input::placeholder {
+    color: rgb(112, 112, 141);
+}
