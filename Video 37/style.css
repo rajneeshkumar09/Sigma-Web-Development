@@ -23,9 +23,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 .navbar {
     height: 4rem;
-    position: sticky;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -113,14 +117,20 @@ main {
     background-color: rgb(241, 15, 203);
 }
 
-.fixed-logo {
-    position: fixed;
-}
+/* .fixed-logo { */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+    /* position: fixed; */
+/* } */
 
 .web-logo img{
-    margin: 20rem 1rem 2rem 0;
-    height: 2rem;
-    float: right;
+    bottom: 16px;
+    right: 25px;
+    /* border-radius: 25px; */
+    height: 2.5rem;
+    position: fixed;
 }
 
 .event {
