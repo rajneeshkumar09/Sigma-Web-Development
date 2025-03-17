@@ -1,0 +1,33 @@
+.container {
+    height: 80vh;
+    border: 2px solid red;
+    margin: 4px;
+    display: grid;
+    /* grid-template-columns: 120px 100px; */
+    grid-template-columns: [pahla] 120px [dusra] 100px [tisra];
+    grid-template-rows: 150px 150px 150px;
+}
+
+.item {
+    /* height: 92px; */
+    /* width: 92px; */
+    border: 2px solid black;
+    margin: 4px;
+    background-color: violet;
+    text-align: center;
+    font-size: 50px;
+}
+
+.item-4 {
+    grid-row: 1/2;
+    grid-column: pahla/tisra;
+}
+
+.item-1 {
+    grid-column: 1/2;
+
+    /* grid-row: 1/2; */
+    /* or we can do */
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
