@@ -6,6 +6,7 @@
 .box {
     display: flex;
     justify-content: center;
+    margin: 8px;
     align-items: center;
     height: 50px;
     width: 59px;
