@@ -1,3 +1,5 @@
+// Javascript Faulty Calculator Exercise 9
+
 const prompt = require('prompt-sync')();
 
 /* Create a faulty calculator using JavaScript.
