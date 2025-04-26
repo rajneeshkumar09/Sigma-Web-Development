@@ -7,9 +7,16 @@
     background-color: #1e1d1de7; 
 }
 
+#idk {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: #05ed85 underline;
+}
+
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin: 0.8em;
     height: auto;
 }
@@ -17,17 +24,20 @@
 .card {
     display: flex;
     justify-content: left;
+    align-items: flex-start;
     padding: 6px;
 }
 
 .card .thumbnail {
-    display: flex;
     position: relative;
+    height: 7.8em;
+    width: 16em;
 }
 
 .card .thumbnail img {
     height: 100%;
     width: 100%;
+    color: #fff;
     border-radius: 0.5em;
 }
 
@@ -36,7 +46,7 @@
     right: 0.4em;
     bottom: 0.4em;
     padding: 3px 5px;
-    background-color: #212121c7;
+    background-color: #131212d4;
     border-radius: 5px;
 }
 
