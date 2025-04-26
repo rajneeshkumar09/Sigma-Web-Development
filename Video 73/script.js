@@ -1,5 +1,5 @@
 function createCard(title, cName, views, monthsOld, duration, thumbnail) {
-    // Finish this function
+
     // Create a element with class name card into container class
     let cardDiv = document.createElement("div");
     cardDiv.setAttribute("class", "card");
@@ -36,35 +36,35 @@ function createCard(title, cName, views, monthsOld, duration, thumbnail) {
     // Views conversion into K's & M's
     if (views>=0 && views<1000) {
         if (views===0 || views===1){
-            result = `${views} view`;
+            result = `${Math.round(views)} view`;
         }
         else {
-            result = `${views} views`;
+            result = `${Math.round(views)} views`;
         }
     }
     else if (views>=1000 && views<1000000) {
         views /= 1000;
-        result = `${views}K views`;
+        result = `${Math.round(views)}K views`;
     }
     else {
         views /= 1000000;
-        result = `${views}M views`;
+        result = `${Math.round(views)}M views`;
     }
 
     // months to year conversion
     if (monthsOld >=0 && monthsOld<12) {
         if (monthsOld===0 || monthsOld===1) {
-            totalMonths = `${monthsOld} month`;
+            totalMonths = `${monthsOld} month ago`;
         }
         else {
-            totalMonths = `${monthsOld} months`;
+            totalMonths = `${monthsOld} months ago`;
         }
         }
     else {
         monthsOld /=12
         // let years = Math.max(monthsOld).toFixed(1);
         let years = Math.fround(monthsOld).toFixed(1);
-        totalMonths = `${years} years`
+        totalMonths = `${years} years ago`
     }
 
     // Create a element with class name vedio-info into title-info class
